@@ -1,0 +1,52 @@
+{
+  "user": {
+    "ID": "",
+    "type": "anonymous",
+    "ecommID": "",
+    "mediaID": "",
+    "hashed_id": ""
+  },
+  "session": { "leadkey": "", "useragent": "" },
+  "page": { "url": "" },
+  "content": { "type": "Home", "sub-category": "", "category": "" },
+  "product": {
+    "gtin": "",
+    "name": "",
+    "brand": "",
+    "category": "",
+    "sub-brand": "",
+    "segment": ""
+  },
+  "event": [{ "category": "", "action": "", "label": "", "value": "" }],
+  "cd": [{ "name": "", "id": "", "value": "" }],
+  "GTM": {
+    "SiteLocale": "en-CA", //info
+    "SiteTouchpoint": "33001", //info
+    "SiteCountry": "CA", //info
+    "SiteBrand": "Gillette", //info
+    "SiteLanguage": "English", //info
+    "SitePlatform": "Brand.Com",  // info
+    "SiteEnvironment": "Prod", // only fire NSR on Prod
+    "SiteHost": "CTL", // not important
+    "SiteTechnicalAgency": "Mindtree",
+    "SiteStatus": "Live",
+    "SiteLocalContainer": "GTM-PZ6JPZ9", //optional but injects local container
+    "BINPlatform": "None", // optional, but injects PS
+    "GoogleAnalyticsLocal": "UA-32832439-3", // critical
+    "GoogleAnalyticsBrand": "UA-4264430-1", // deprecated
+    "GoogleAnalyticsSiteSpeedSampleRate": "High", //optional
+    "GoogleAnalyticsAllowLinker": "false", //optional
+    "GoogleAnalyticsLinkerDomains": "", //optional
+    "GoogleAnalyticsEnableOptimizely": "false", //legacy when optimizely was on, stores the optimizely variant in a custom dimension
+    "GoogleAnalyticsOptimizeContainerID": "GTM-KR7BM3K", // optional
+    "GoogleAnalyticsReportingView": "61281501", // optional
+    "GhosteryAdChoices": "true",
+    "GhosteryAdChoicesID": "8873",
+    "GhosteryOverlay": "false",
+    "GhosteryOverlayID": "",
+    "FacebookConnectAppID": "",
+    "FacebookConnectLocale": "",
+    "FacebookRemarketingID": "",
+    "GoogleReCaptcha": false
+  }
+}
