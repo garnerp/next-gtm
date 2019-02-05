@@ -23,6 +23,21 @@ export default class MyDocument extends Document {
           `
             }}
           />
+
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-133285087-1"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-133285087-1', { 'optimize_id': 'GTM-N6LPPCW'});
+`
+            }}
+          />
         </Head>
         <body className="custom_class">
           <Main />
