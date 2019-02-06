@@ -30,7 +30,6 @@ export default class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-<script>
 (function(a,s,y,n,c,h,i,d,e){
   s.className+=' '+y;
   h.start=1*new Date;
@@ -45,8 +44,6 @@ export default class MyDocument extends Document {
   h.timeout=c;
 })
   (window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-TCX44CK':true});
-</script>
-
 `
             }}
           />
