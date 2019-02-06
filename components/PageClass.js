@@ -10,6 +10,7 @@ const pageStyle = {
 export default class Layout extends React.Component {
   componentDidMount() {
     window.dataLayer = window.dataLayer || [];
+    dataLayer.push({ event: "virtualPageView" });
     dataLayer.push({ event: "optimize.activate" });
   }
   render() {
