@@ -1,6 +1,8 @@
 import React from "react";
-import Page from "../components/PageClass";
+
 import App, { Container } from "next/app";
+import Router from "next/router";
+import Page from "../components/PageClass";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
