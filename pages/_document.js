@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
               window.dataLayer = window.dataLayer || [];
               dataLayer.push({ event: "virtualPageView" });
               dataLayer.push({ event: "optimize.activate" });
-            };
           `
             }}
           />
