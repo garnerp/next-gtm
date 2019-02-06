@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "../components/Page";
+import Page from "../components/PageClass";
 import App, { Container } from "next/app";
 
 export default class MyApp extends App {
