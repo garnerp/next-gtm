@@ -8,18 +8,19 @@ const pageStyle = {
   border: "1px solid #DDD"
 };
 
-Router.event.on("routeChangeComplete", url => {
+Router.events.on("routeChangeComplete", url => {
   window.dataLayer = window.dataLayer || [];
   dataLayer.push({ event: "virtualPageView" });
   dataLayer.push({ event: "optimize.activate" });
 });
 
 export default class Layout extends React.Component {
-  componentDidMount() {
+  /*  componentDidMount() {
     window.dataLayer = window.dataLayer || [];
     dataLayer.push({ event: "virtualPageView" });
     dataLayer.push({ event: "optimize.activate" });
   }
+  */
   render() {
     return (
       <div style={pageStyle}>
