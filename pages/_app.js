@@ -14,13 +14,13 @@ export default class MyApp extends App {
     return { pageProps };
   }
 
-  componentDidMount() {
+  /*  componentDidMount() {
     Router.onRouteChangeComplete = url => {
       window.dataLayer = window.dataLayer || [];
       dataLayer.push({ event: "virtualPageView" });
       dataLayer.push({ event: "optimize.activate" });
     };
-  }
+  } */
 
   render() {
     const { Component, pageProps } = this.props;
