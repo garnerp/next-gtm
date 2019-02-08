@@ -6,13 +6,21 @@ const linkStyle = {
 
 const Header = () => (
   <div>
-    <Link href="/">
-      <a style={linkStyle}>Home</a>
-    </Link>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
-    </Link>
+    <a href="/" style={linkStyle}>
+      Home
+    </a>
+
+    <a href="/about" style={linkStyle}>
+      About
+    </a>
   </div>
 );
-
+/*
+<Link href="/">
+<a href="/" style={linkStyle}>Home</a>
+</Link>
+<Link href="/about">
+<a href="/about/" style={linkStyle}>About</a>
+</Link>
+*/
 export default Header;
