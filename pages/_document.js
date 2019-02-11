@@ -1,8 +1,9 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import getConfig from "next/config";
 
-const { publicRuntimeConfig } = getConfig();
-const { GTM_CONTAINER_ID } = publicRuntimeConfig;
+//const { publicRuntimeConfig } = getConfig();
+//const { GTM_CONTAINER_ID } = publicRuntimeConfig;
+const GTM_CONTAINER_ID = "GTM-TCX44CK";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
